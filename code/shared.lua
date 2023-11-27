@@ -52,7 +52,7 @@ function GetPlayer(source)
 end
 
 function Remove(player, item)
-    if CORE  == 'esx' then 
+    if CORE == 'esx' then 
         player.removeInventoryItem(item, 1)
     elseif CORE == 'qb' then 
         player.Functions.RemoveItem(item, 1)
