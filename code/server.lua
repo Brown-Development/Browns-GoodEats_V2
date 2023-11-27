@@ -29,7 +29,6 @@ RegisterNetEvent('goodeats:remove', function(item)
     Remove(xPlayer, item)
     if CORE == 'qb' then 
         for k in pairs(itemBox_Inventories) do
-            print(k)
             if GetResourceState(k) == 'started' then 
                 itemBox = true 
                 break
