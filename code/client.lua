@@ -53,7 +53,7 @@ RegisterNetEvent('goodeats:client:Use', function(types, item)
                 disable = {
                     car = false,
                     movement = false,
-                    combat = false
+                    combat = true
                 },
                 anim = {
                     dict = Type_Trans[types].dict,
